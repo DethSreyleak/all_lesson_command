@@ -1,0 +1,22 @@
+When you want to comment in ruby you can type:
+
+1. # 
+
+
+Learn Variable in ruby:
+
+	variable it has three:
+	1. String
+	2. Interger
+	3. Boolean
+    =>Opperation of String it has:
+	1. Multiline
+	2. Interpolation
+	3. Length
+	4. Upcase
+	5. Downcase
+	6. Reverse
+	7. Include
+	8. concatenation
+	9. Freezing
+	10. Comparison

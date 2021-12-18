@@ -1,0 +1,6 @@
+1. go to file and use command "cmd" in file location
+2. in vs code django-admin startproject name_project
+3. django-admin startapp name_app
+4. create templates
+5. create urls.py in app
+6. go to settings.py in project to set "import os" "name_app in INSTALL APP" "TEMPLATES set 'DIRS': [os.path.join(BASE_DIR,'templates')],"

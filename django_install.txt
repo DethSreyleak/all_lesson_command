@@ -1,0 +1,23 @@
+django install in VS code
+1. cmd: pip install pipenv
+2. cmd: pipenv shell (virtaul environment)
+3. cmd: pipenv install django (install django)
+4. cmd: django-admin startproject name_project
+5. cmd: django-admin startapp name_app
+
+
+## runserver: python manage.py runserver(windows)
+## runserver: python3 manage.py runsercver(linux)
+
+
+
+Channa approach to begin django
+- python -m venv env
+- env\Scripts\activate
+- pip install django(this document will get you up and running with Django)
+-django-admin startproject name_project
+-cd name_project
+-then open VS at repository (env and name_project) choose(name_project)
+-Ctrl + Shift + P or -> command -> pthon:(env)
+-django-admin startapp hello
+-python manage.py runserver

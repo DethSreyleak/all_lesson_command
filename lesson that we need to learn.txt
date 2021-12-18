@@ -1,0 +1,25 @@
+team: 3
+	1. how to device assign task?
+	2. reason project fail
+	3. tips and skill to achieve deatline
+team: 6
+	1. risk management
+	2. scope of project
+	3. how to convince people
+	4. presentation
+team: 8
+	1. How to lead the team
+	2. how to deal with client?
+team 9:
+	1. how to motivate team
+	2. requirement gathering, change, adding requirement
+	3. how to propose your own idea as "internship" activity?
+team: 10
+	1. quatified team member, mortivated team
+team: 16
+	1. how to win over client	
+team: 17
+	1. how to argue professional way
+	2. how to close/end the project
+team: 2
+	

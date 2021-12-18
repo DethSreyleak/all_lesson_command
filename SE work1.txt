@@ -1,0 +1,15 @@
+Online Examination system
+SMS(school management system)
+Own app
+requirement engineering
+1. create BMC
+2. FS
+3. Interview
+4. SRS
+5. Validation(dev + test + client + stackhoder)
+
+
+book:
+1. 4 hour work week
+2. zero to one
+3. rich, dad, poor dad

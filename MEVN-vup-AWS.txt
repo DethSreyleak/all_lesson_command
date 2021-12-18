@@ -1,0 +1,5 @@
+What is AWS?
+ - Provides on demand cloud computing platforms on a paid subscription basic
+ - Compute, store, database(NoSQL), migration, and more
+ - Elastic compute cloud or (EC2)- virtual servers
+ - AWS elastic beanstalk

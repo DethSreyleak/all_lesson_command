@@ -1,0 +1,17 @@
+Base Ruby Command:
+	
+	1. ruby -v =>(Use it to check ruby version)
+	2. ruby -e "puts 'Hello World'" =>(Use it to run a ruby program)
+	3. man ruby =>(use it to know about ruby help and documentation)
+	4. gem -v =>( use it to know about ruby gem version)
+	5. gem sources =>(use it to know about source of ruby gem)
+	6. gem list =>(use it to list of ruby gems installed)
+	7. irb =>(use it to internactive ruby)
+
+Note: repl ruby: is online app that we can run any languge that you want to run
+
+How to print 'hello' with:
+
+	1. puts
+	2.p
+	3.print 

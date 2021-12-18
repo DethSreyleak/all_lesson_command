@@ -1,0 +1,64 @@
+To check django version type: django-admin --version
+
+To Create project django type:
+
+1. mkdir projects (Projects is just name that user set so you can put any name that you like)
+
+2. django-admin startproject telusko ( telusko is just name that user set so you can put any name that you like)
+
+3. cd telusko
+
+4. dir = ls (use it to show file that have in telusko)
+
+5. python manage.py runserver
+
+6. python manage.py startapp calc (calc is just name of app that user create so you can put any name that you like)
+
+7. we need to create "urls.py" in app
+
+8. after create new "urls" pleasse type this code:
+	
+	from django.urls import path
+	
+	from . import views
+
+	urlpatterns = [
+		
+		path('', views.home, name='home')
+	]
+9. please go to view and then type code belove:
+
+	from django.shortcuts import render
+	
+	from django.http import HttpResponse
+
+	def home(request):
+
+	return HttpResponse("Hello World")
+
+10.Create "one templates to we can create file html"
+
+11. please go to "setting in your project" and type  code below:
+
+	1. "import os" below "from pathlib import Path"
+
+	EX: 
+	
+		from pathlib import Path
+		import os
+
+	2. find the word TEMPLATES and then go to this word 'DIRS' and type this code: [os.path.join(BASE_DIR, 'templates')]
+		
+	EX: 
+		'DIRS': [os.path.join(BASE_DIR, 'templates')],
+
+12.Please go to "urls in your project" and type this code:
+
+	from django.contrib import admin
+
+	from django.urls import path, include
+
+	urlpatterns = [
+		path('', include('calc.urls')),
+		path('admin/', admin.site.urls)'
+	]

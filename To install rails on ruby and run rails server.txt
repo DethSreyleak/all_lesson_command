@@ -1,0 +1,52 @@
+1. first need install ruby
+
+ 	please go to this link: " https://rubyinstaller.org/downloads/ "
+
+2. check ruby vesion after you install already
+	
+	type: ruby -v or ruby --version
+
+3. and then type: gem list (type this comment to see gem that we have been install)
+
+4.  After we install ruby and check gem already and then we need to install rails:
+
+	type: gem install rails --no-document
+
+5. and then check version ruby again:
+	
+	ruby -v
+
+6. check version bundler:
+
+	bundler --version
+
+7. check version rails:
+
+	rails --version
+
+8. go to dectop:
+
+	cd Decktop
+
+9.create one folder:
+
+	mkdir myRuby (myRuby is just folder name you can change it)
+
+10. go to myRuby:
+
+	cd myRuby
+
+11. To create a rails application:
+
+	rails new webapp (webapp it just name you can change it)
+
+12. To install the sqlite3 type:
+
+	bundle install
+
+13. To run rails server type:
+
+	rails s or rails server
+
+
+ 

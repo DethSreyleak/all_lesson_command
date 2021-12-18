@@ -1,0 +1,8 @@
+install on windows the commend is:
+1. activate name_of_my_env
+2. conda install pandas
+3. conda install pandas=0.20.3
+4. conda install ipython
+5. conda install anaconda
+6. conda install pip
+7. pip install django

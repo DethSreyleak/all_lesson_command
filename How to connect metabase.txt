@@ -1,0 +1,7 @@
+How to connect metabase?
+
+	1. go to " local dist " and then find the word " programm file "
+	2. after go to "programm file" and find the word " postgres SQL" and then click on the folder name "12 => (name folder can base on postgres version that download)" 
+	3. after go to folder name 12 please find folder name "data"
+	4. go to folder name "data" and find name "pg_hba.conf" open it and past this comment here "hostnossl    all          all            0.0.0.0/0  trust" below 
+	5. And then go to command promt and type this " ipconfig" and copy IPv4 Address .........: 192.168.43.38

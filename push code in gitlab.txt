@@ -1,0 +1,8 @@
+how to push code in gitlab
+1. git status
+2.git branch
+3.git checkout -b duchuy
+4.git branch
+5. git add .
+6. git commit -m "comment everything that you want to write"
+7. git push origin duchuy

@@ -1,0 +1,18 @@
+how to see ruby
+1. ruby --version
+2. gem -v
+3. gem list
+4. gem source
+5.cls (it means clear)
+
+How to create project and run ruby in command
+1. ruby -e "puts 'Hello World'"
+or you can use:
+1. irb (type it to can run code)
+	-type "Hi"
+	or 
+	- type: puts "HI"
+
+when you want to leave irb(main) please type: exit
+
+when you want to find place that ruby stay please type: where ruby  

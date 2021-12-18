@@ -1,0 +1,3 @@
+use the comment to can use multiple Github account in comman promt
+
+1. git config --global credential.useHttpPath true

@@ -1,0 +1,3 @@
+Install Numpy:
+
+1. pip install numpy

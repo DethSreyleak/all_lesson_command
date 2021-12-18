@@ -1,0 +1,31 @@
+1. check version of ruby:
+	
+	type: < ruby -v > or < ruby --version >
+
+2. check rails version:
+
+	type: < rails -v > or < rails --version >
+
+3. create a new rails app:
+
+	rails new shop
+4. ls
+
+5.cd shop/
+
+6. rails s or rails server (type it to runserver in browser)
+
+7. create new controller in app type:
+
+	rails g controller welcome index
+
+8. bundle
+
+9. to create new view page type:
+
+	rails g controller welcome bikes gear services
+note:(for bikes, gear, services it just name of file so you can change name everything that you like)
+
+10. to connect page with the first page type:
+
+	<%= link_to "See our bikes for sale", welcome_bikes_path %>
